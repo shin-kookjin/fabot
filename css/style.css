@@ -1,0 +1,302 @@
+
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+/* font-weight : 300, 400, 700, 800 */
+body{
+  font-family: 'NanumSquare', sans-serif;
+}
+
+.btn{
+  border:2px solid #fff;
+  width: 290px;
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
+  border-radius: 14px;
+}
+
+#header{
+  position: absolute; width: 100%;
+  top: 0; left: 0;
+  z-index: 10;
+  padding-top: 38px;
+}
+#header h1{float: left;}
+#header nav{float: right; width: 650px;}
+#header nav ul{display: flex;}
+#header nav ul li{
+  width: 96px; 
+  text-align: center;
+}
+#header nav ul li a{
+  display: block;
+  padding: 8px;
+  color: #fff;
+}
+#header nav ul li a:hover{
+  font-weight: 800;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid #fff;
+}
+#header nav ul li:last-child a:hover{
+  border-bottom:0
+}
+
+#header.fix{
+  position: fixed;
+  top: 0; left: 0;
+  background-color: rgba(0,0,0,0.6);
+  transition: 0.3s;
+}
+#header h1 img{width:200px; transition: 0.3s;}
+#header.fix h1 img{width: 150px; margin-bottom: 10px; 
+}
+
+
+#banner{
+  height: 750px;
+  background-image: url(../images/b-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+#banner h2{
+  padding-top: 220px;
+  font-size: 72px;
+  font-weight: 800;
+  
+}
+#banner p{
+  font-size: 20px;
+  padding-top: 40px;
+  line-height: 1.5em;
+  
+}
+#banner .btn{
+  margin-top: 64px;
+  font-size: 24px;
+  font-weight: 700;
+}
+#banner2{
+  background-color: #252525;
+  background-image: url(../images/b2-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  color: #fff;
+  text-align: center;
+  height: 430px;
+}
+#banner2 h3{
+  padding-top: 76px;
+  font-size: 38px;
+  font-weight: 800;
+}
+#banner2 h3 small{
+  display: block;
+  font-size: 0.5em;
+  font-weight: 400;
+  padding-top: 0.4em;
+}
+#banner2 h3::after{
+  content: '';
+  display: block;
+  width: 2px; margin:22px auto;
+  height: 84px;
+  background-color: #fff;
+}
+
+#banner2 p{
+  line-height: 2em;
+}
+
+
+section{
+  padding: 148px 0;
+}
+section .txt{
+  width: 523px;
+  z-index: 10;
+}
+section .txt h2{
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+section .txt h2 b{
+  font-weight: 800;
+}
+section .txt .hbar{
+  width: 85px;
+  height: 5px;
+  background-color: #2196f3;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+section .txt p{
+  font-size: 19px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+section .txt .btn{
+  border:2px solid #2196f3;
+  border-radius: 14px;
+  color: #2196f3;
+  font-size: 21px;
+  padding: 14px 0;
+  
+}
+section .txt .btn:hover{
+ background-color: #2196f3;
+ color: #fff;
+}
+
+.pos-left{
+  position: relative;
+}
+.pos-right{
+  position: absolute;
+  right: 0; top: 0;
+}
+
+#s1 h2{padding-top: 40px;}
+#s1 p{ width: 418px;}
+
+#s2{
+  background-color: #f9f9f9;
+  padding-top: 98px;
+  padding-bottom: 27px;
+}
+#s2 .txt{width: 395px;}
+#s2 .txt .hbar{
+  background-color: #5283de;
+}
+#s2 .txt .btn{
+  border-color:#5283de ;
+  color:#5283de;
+}
+#s2 .txt .btn:hover{
+  background-color: #5283de;
+  color:#fff;
+}
+
+#s3 .txt .hbar{
+  background-color: #39b068;
+}
+#s3 .txt .btn{
+  border-color:#39b068 ;
+  color:#39b068;
+}
+#s3 .txt .btn:hover{
+  background-color: #39b068;
+  color:#fff;
+}
+
+#s4{
+  background-color: #1979ca;
+  color: #fff;
+  padding-top: 78px;
+  padding-bottom: 0;
+}
+#s4 .txt{width: 472px;}
+#s4 .txt .hbar{
+  background-color: #fff;
+}
+#s4 .txt .btn{
+  border-color:#fff ;
+  color:#fff;
+}
+#s4 .txt .btn:hover{
+  background-color: rgba(58, 155, 235, 0.698);
+  color:#fff;
+}
+
+#s5 .txt .hbar{
+  background-color: #83519f;
+}
+#s5 .txt .btn{
+  border-color:#83519f ;
+  color:#83519f;
+}
+#s5 .txt .btn:hover{
+  background-color: #83519f;
+  color:#fff;
+}
+
+#s6{
+  background-color: #464646;
+  color: #fff;
+  padding-top: 78px;
+  padding-bottom: 130px;
+}
+#s6 .txt{width: 425px;}
+#s6 .txt .hbar{
+  background-color: #c92d2d;
+}
+#s6 .txt .btn{
+  border-color:#c92d2d ;
+  color:#c92d2d;
+}
+#s6 .txt .btn:hover{
+  background-color: #c92d2d;
+  color:#fff;
+}
+#s7 .txt{width: 425px;}
+
+#footer{
+background-color: #21202e;
+color: #fff;
+}
+#footer .footer1{
+  display: flex;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+#footer .footer1 > div{width: 25%;}
+#footer .footer1 > div h4{
+  font-size: 13px;
+  font-weight: 800;
+  padding: 10px 2px;
+}
+#footer .footer1 > div ul{
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+#footer .footer1 > div ul li{
+  padding-bottom: 10px;
+  color: #ddd;
+}
+#footer .footer1 > div ul li a:hover{
+  text-decoration: underline;
+  color:#fff
+}
+#footer .footer1 > div ul li img{
+  vertical-align: middle;
+}
+#footer .sns{
+  display: flex;
+  padding-top: 20px; }
+#footer li{  padding-right: 13px; }
+#footer form{ width: 240px; position: relative;}
+#footer form input{
+  width: 100%;
+  font-size: 12px;
+  padding: 8px;
+  border: 0;
+  color: #000;
+}
+#footer form button{
+  position: absolute;
+  top: 0; right: 0;
+  width: 30px; height: 30px;
+  background-color: #2179ee;
+}
+#footer .footer2{
+  border-top: 1px solid grey;
+  padding-top: 26px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #6d7079;
+}

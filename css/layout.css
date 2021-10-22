@@ -1,0 +1,9 @@
+#wrap{
+  min-width: 1062px;
+}
+.wrap{
+  width: 1062px; margin: auto;
+  padding: 0 16px;
+  /* outline: 1px solid red; */
+  position: relative;
+}

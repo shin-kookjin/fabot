@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+button{
+  border: 0;
+  background-color:transparent;
+  cursor: pointer;
+}
+.hide{
+  width: 0; height: 0;
+  overflow: hidden;
+  position: absolute;
+  left: -9999em;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+i{
+  font-style: italic;
+}
+b{
+  font-weight: 800;
+}
